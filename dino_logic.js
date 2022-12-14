@@ -22,5 +22,8 @@ let isAlive = setInterval(function () {
     if (cactusLeft < 50 && cactusLeft > 0 && dinoTop >= 140) {
         alert("GAME OVER!")
     }
+    else {
+        let dinoJump = i++
+    }
 
 }, 10)
